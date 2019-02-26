@@ -17,7 +17,8 @@
 #title{
 	height: 150px;
 	width:auto;
-	margin-top: 100px
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 
@@ -73,14 +74,28 @@
 #areas{
 	height: 200px;
 	width: auto;
-	border-radius: 8px
+	border-radius: 8px;
 }
 
+#areas:hover {
+	height: 210px
+}
+
+#square{
+	width: 200px;
+	height: 200px
+}
 
 #abogados{
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
+	width: 300px;
+	height:300px;
+	object-fit: cover;
+	border-radius: 50%
+}
+
+#abogados:hover{
+	width:310px;
+	height: 310px
 }
 
 @media screen and (max-width: 750px){
