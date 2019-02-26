@@ -1,0 +1,135 @@
+#footer{
+	background: rgb(144,20,32);
+	height: auto;
+	text-decoration: none;
+	color: black
+}
+
+#main{
+	height: auto;
+	background-image: url(images/EPLL7.2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#title{
+	height: 150px;
+	width:auto;
+	margin-top: 100px
+}
+
+
+#title-b{
+	font-family: Tahoma, Geneva, sans-serif;	
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(144,20,32);
+}
+
+#banner{
+	background-color: color: rgb(144,20,32);
+	height: 600px
+}
+
+#title-c{
+	font-family: Tahoma, Geneva, sans-serif;	
+	font-weight: bold;
+	padding: 50px;
+	color: rgb(224,122,5);
+}
+
+#title-d{
+	font-family: Tahoma, Geneva, sans-serif;	
+	font-weight: bold;
+	color: white;
+	padding-top:15px;
+	font-style: italic 
+}
+
+#franja1{
+	height: 200px;
+	background-image: url(images/road.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	margin-bottom: 80px: 
+}
+
+#franja2{
+	height: 200px;
+	background-image: url(images/road.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	margin-bottom: 80px: 
+}
+
+#areas{
+	height: 200px;
+	width: auto;
+	border-radius: 8px
+}
+
+
+#abogados{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+@media screen and (max-width: 750px){
+	#title{
+		height: 60px;
+		width:auto;
+		margin-top: 100px
+	}
+	#title-b{
+		font-family: Tahoma, Geneva, sans-serif;
+		padding-top: 20px;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 15px
+	}
+
+	#title-c{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	#title-d{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-weight: bold;
+		color: white;
+		padding-top:15px;
+		font-style: italic;
+		font-size: 30px
+	}
+
+	#main{
+		height: auto;
+		background-image: url(images/EPLL0.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#franja1{
+		height: auto;
+		background-image: url(images/road.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 80px;
+		margin-bottom: 80px: 
+	}
+
+}
